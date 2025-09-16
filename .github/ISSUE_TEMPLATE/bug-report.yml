@@ -13,13 +13,6 @@ body:
       placeholder: ex. Claudio Cleiton
     validations:
       required: true
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: Descreva o erro
-      description: Descrição precisa e detalhada do erro
-    validations:
-      required: true
   - type: dropdown
     id: project
     attributes:
@@ -42,6 +35,14 @@ body:
         - Produção
         - Desenvolvimento
         - Demonstração
+      default: 0
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Descreva o erro
+      description: Descrição precisa e detalhada do erro
+    validations:
+      required: true
   - type: textarea
     id: steps
     attributes:
