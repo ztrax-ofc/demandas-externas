@@ -30,7 +30,8 @@ body:
   - type: dropdown
     id: env
     attributes:
-      label: Qual ambiente o bug ocorreu
+      label: Ambiente
+      description: Qual ambiente o bug ocorreu
       options:
         - Produção
         - Desenvolvimento
@@ -40,7 +41,7 @@ body:
     id: what-happened
     attributes:
       label: Descreva o erro
-      description: Descrição precisa e detalhada do erro
+      description: Descrição precisa e detalhada do erro - adicione prints se necessário.
     validations:
       required: true
   - type: textarea
