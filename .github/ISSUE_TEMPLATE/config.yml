@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suporte Ztrax
+    url: engenharia.dev@ztrax.com.br
+    about: Use esse link se você precisar de ajuda que não seja um bug.
